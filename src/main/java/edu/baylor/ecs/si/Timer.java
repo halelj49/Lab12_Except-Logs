@@ -24,7 +24,7 @@ public class Timer {
 	/*
 	 * Just sleep
 	 */
-	private static void method(long time) throws InterruptedException {
+	private static void sleep(long time) throws InterruptedException {
 		Thread.sleep(time);
 	}
 	
@@ -35,7 +35,7 @@ public class Timer {
 			  throw new TimerException("Cannot be less than zero");
 		  }
 	      timeNow = System.currentTimeMillis();
-		  method(timeToWait);
+		  sleep(timeToWait);
 			
 		} catch (InterruptedException e) {
 			logger.severe("InterruptedException rised");

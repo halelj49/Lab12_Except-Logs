@@ -1,0 +1,274 @@
+2025-04-20 19:52:44 INFO edu.baylor.ecs.si.Timer <clinit> starting the app
+2025-04-20 19:52:44 FINE sun.rmi.transport.LiveRef <init> Attach Listener: localHostKnown = true, localHost = 192.168.1.152
+2025-04-20 19:52:44 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 0
+2025-04-20 19:52:44 INFO edu.baylor.ecs.si.Timer timeMe * should take: 0
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPEndpoint getLocalEndpoint Attach Listener: Version = 2, ep = [192.168.1.152:0,sun.management.jmxremote.LocalRMIServerSocketFactory@11f019ab]
+2025-04-20 19:52:44 FINE sun.rmi.transport.LiveRef <init> Attach Listener: created local endpoint for socket factory sun.management.jmxremote.LocalRMIServerSocketFactory@11f019ab on port 0
+2025-04-20 19:52:44 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2025-04-20 19:52:44 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 0
+2025-04-20 19:52:44 INFO edu.baylor.ecs.si.Timer timeMe * should take: -1
+2025-04-20 19:52:44 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPEndpoint getLocalEndpoint Attach Listener: Version = 2, ep = [192.168.1.152:0]
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPEndpoint getLocalEndpoint Attach Listener: created local endpoint for socket factory null on port 0
+2025-04-20 19:52:44 FINER sun.rmi.transport.Target pinImpl Attach Listener: strongRef = sun.rmi.transport.DGCImpl@4ae7868f
+2025-04-20 19:52:44 FINER sun.rmi.transport.DGCImpl$2 run Attach Listener: add object [0:0:0, 2]
+2025-04-20 19:52:44 FINER sun.rmi.transport.Target pinImpl Attach Listener: strongRef = javax.management.remote.rmi.RMIJRMPServerImpl@720d8012
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPTransport exportObject Attach Listener: (port 0) create server socket
+2025-04-20 19:52:44 FINER sun.rmi.transport.tcp.TCPTransport listen Attach Listener: creating server socket on [192.168.1.152:0,sun.management.jmxremote.LocalRMIServerSocketFactory@11f019ab]
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPEndpoint newServerSocket Attach Listener: default port for server socket factory sun.management.jmxremote.LocalRMIServerSocketFactory@11f019ab and client socket factory null set to 60079
+2025-04-20 19:52:44 FINER sun.rmi.transport.Transport exportObject Attach Listener: add object [55791073:19655d54e92:-7fff, 1228463163771580182]
+2025-04-20 19:52:44 FINE sun.rmi.transport.tcp.TCPTransport$AcceptLoop run RMI TCP Accept-0: listening on port 60079
+2025-04-20 19:52:44 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue Attach Listener: string used for method hash: "getVersion()Ljava/lang/String;"
+2025-04-20 19:52:44 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue Attach Listener: string used for method hash: "newClient(Ljava/lang/Object;)Ljavax/management/remote/rmi/RMIConnection;"
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler lambda$run$0 RMI TCP Connection(1)-192.168.1.152: accepted socket from [192.168.1.152:60080]
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport$ConnectionHandler lambda$run$0 RMI TCP Connection(1)-192.168.1.152: (port 60079) suggesting 192.168.1.152:60080
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport$ConnectionHandler lambda$run$0 RMI TCP Connection(1)-192.168.1.152: (port 60079) client using 127.0.0.1:0
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef oldDispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: sun.rmi.transport.DGCImpl$2$$Lambda/0x000001ee1817ee10@742a8e2c
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "[B" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2025-04-20 19:52:45 FINER sun.rmi.transport.DGCImpl_Skel dispatch RMI TCP Connection(1)-192.168.1.152: vmid = 2bf59a01926f2685:64406888:1964fff1d17:-7fff
+2025-04-20 19:52:45 FINER sun.rmi.transport.DGCImpl_Skel dispatch RMI TCP Connection(1)-192.168.1.152: id = [55791073:19655d54e92:-7fff, 1228463163771580182], vmid = 2bf59a01926f2685:64406888:1964fff1d17:-7fff, duration = 600000
+2025-04-20 19:52:45 FINER sun.rmi.transport.ObjectTable referenced RMI TCP Connection(1)-192.168.1.152: add to dirty set: 2bf59a01926f2685:64406888:1964fff1d17:-7fff
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIJRMPServerImpl[55791073:19655d54e92:-7fff, 1228463163771580182]: public abstract javax.management.remote.rmi.RMIConnection javax.management.remote.rmi.RMIServer.newClient(java.lang.Object) throws java.io.IOException]
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: java.lang.String;!*
+2025-04-20 19:52:45 FINER javax.management.remote.rmi.RMIServerImpl doNewClient making new client
+2025-04-20 19:52:45 FINER javax.management.remote.rmi.RMIServerImpl doNewClient no subject
+2025-04-20 19:52:45 FINER javax.management.remote.rmi.RMIServerImpl makeConnectionId connectionId=rmi://192.168.1.152  1
+2025-04-20 19:52:45 FINER javax.management.remote.rmi.RMIServerImpl doNewClient making new connection: rmi://192.168.1.152  1
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin <init> Creates a new ServerCommunicatorAdmin object with the timeout 120000
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: timeout=120000
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765056
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=119999
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 119999 ms remaining
+2025-04-20 19:52:45 FINER sun.rmi.transport.Target pinImpl RMI TCP Connection(1)-192.168.1.152: strongRef = javax.management.remote.rmi.RMIConnectionImpl@59e87c1d: connectionId=rmi://192.168.1.152  1
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport exportObject RMI TCP Connection(1)-192.168.1.152: add object [55791073:19655d54e92:-7ffd, 8284935283720503827]
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "isInstanceOf(Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Z"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "queryNames(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "createMBean(Ljava/lang/String;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "unregisterMBean(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getObjectInstance(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/ObjectInstance;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "queryMBeans(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljava/util/Set;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getMBeanCount(Ljavax/security/auth/Subject;)Ljava/lang/Integer;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "setAttributes(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getDefaultDomain(Ljavax/security/auth/Subject;)Ljava/lang/String;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getDomains(Ljavax/security/auth/Subject;)[Ljava/lang/String;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "addNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "removeNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "removeNotificationListener(Ljavax/management/ObjectName;Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getMBeanInfo(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Ljavax/management/MBeanInfo;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "invoke(Ljavax/management/ObjectName;Ljava/lang/String;Ljava/rmi/MarshalledObject;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "isRegistered(Ljavax/management/ObjectName;Ljavax/security/auth/Subject;)Z"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "close()V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getAttributes(Ljavax/management/ObjectName;[Ljava/lang/String;Ljavax/security/auth/Subject;)Ljavax/management/AttributeList;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "setAttribute(Ljavax/management/ObjectName;Ljava/rmi/MarshalledObject;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getAttribute(Ljavax/management/ObjectName;Ljava/lang/String;Ljavax/security/auth/Subject;)Ljava/lang/Object;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "addNotificationListeners([Ljavax/management/ObjectName;[Ljava/rmi/MarshalledObject;[Ljavax/security/auth/Subject;)[Ljava/lang/Integer;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "removeNotificationListeners(Ljavax/management/ObjectName;[Ljava/lang/Integer;Ljavax/security/auth/Subject;)V"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "fetchNotifications(JIJ)Ljavax/management/remote/NotificationResult;"
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef$HashToMethod_Maps computeValue RMI TCP Connection(1)-192.168.1.152: string used for method hash: "getConnectionId()Ljava/lang/String;"
+2025-04-20 19:52:45 FINER javax.management.remote.rmi.RMIServerImpl doNewClient new connection done: rmi://192.168.1.152  1
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef oldDispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: sun.rmi.transport.DGCImpl[0:0:0, 2]: java.rmi.dgc.Lease dirty(java.rmi.server.ObjID[], long, java.rmi.dgc.Lease)]
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: sun.rmi.transport.DGCImpl$2$$Lambda/0x000001ee1817ee10@742a8e2c
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "[Ljava.rmi.server.ObjID;", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "[Ljava.rmi.server.ObjID;" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: -1, nRefs: 2, depth: 1, bytes: 80, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [Ljava.rmi.server.ObjID;, array length: 1, nRefs: 3, depth: 1, bytes: 86, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.server.ObjID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.server.ObjID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.server.ObjID, array length: -1, nRefs: 5, depth: 2, bytes: 164, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.server.UID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.server.UID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.server.UID, array length: -1, nRefs: 8, depth: 3, bytes: 233, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.dgc.Lease", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.dgc.Lease" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.dgc.Lease, array length: -1, nRefs: 11, depth: 1, bytes: 330, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 13, depth: 2, bytes: 395, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "java.rmi.dgc.VMID", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "java.rmi.dgc.VMID" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class java.rmi.dgc.VMID, array length: -1, nRefs: 14, depth: 2, bytes: 396, ex: n/a
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "[B", codebase = "", defaultLoader = jdk.internal.loader.ClassLoaders$PlatformClassLoader@6e8460c2
+2025-04-20 19:52:45 FINER java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: class "[B" found via defaultLoader, defined by null
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [B, array length: -1, nRefs: 17, depth: 3, bytes: 416, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter ALLOWED: class [B, array length: 8, nRefs: 18, depth: 3, bytes: 422, ex: n/a
+2025-04-20 19:52:45 FINER java.io.ObjectInputStream filterCheck ObjectInputFilter UNDECIDED: null, array length: -1, nRefs: 19, depth: 3, bytes: 436, ex: n/a
+2025-04-20 19:52:45 FINER sun.rmi.transport.DGCImpl_Skel dispatch RMI TCP Connection(1)-192.168.1.152: vmid = 2bf59a01926f2685:64406888:1964fff1d17:-7fff
+2025-04-20 19:52:45 FINER sun.rmi.transport.DGCImpl_Skel dispatch RMI TCP Connection(1)-192.168.1.152: id = [55791073:19655d54e92:-7ffd, 8284935283720503827], vmid = 2bf59a01926f2685:64406888:1964fff1d17:-7fff, duration = 600000
+2025-04-20 19:52:45 FINER sun.rmi.transport.ObjectTable referenced RMI TCP Connection(1)-192.168.1.152: add to dirty set: 2bf59a01926f2685:64406888:1964fff1d17:-7fff
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 84
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract java.lang.String javax.management.remote.rmi.RMIConnection.getConnectionId() throws java.io.IOException]
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl isInstanceOf connectionId=rmi://192.168.1.152  1, name=java.lang:type=OperatingSystem, className=com.sun.management.OperatingSystemMXBean
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=OperatingSystem
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765093
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=1
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=119999
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 119999 ms remaining
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl isInstanceOf connectionId=rmi://192.168.1.152  1, name=java.lang:type=OperatingSystem, className=javax.management.NotificationEmitter
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=OperatingSystem
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765096
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=0
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=119999
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 119999 ms remaining
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl getAttribute connectionId=rmi://192.168.1.152  1, name=java.lang:type=OperatingSystem, attribute=ProcessCpuLoad
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor getAttribute Attribute = ProcessCpuLoad, ObjectName = java.lang:type=OperatingSystem
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=OperatingSystem
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765467
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=0
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=120000
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 120000 ms remaining
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl isInstanceOf connectionId=rmi://192.168.1.152  1, name=java.lang:type=Memory, className=java.lang.management.MemoryMXBean
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765471
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=0
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=120000
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 120000 ms remaining
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract boolean javax.management.remote.rmi.RMIConnection.isInstanceOf(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.InstanceNotFoundException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl isInstanceOf connectionId=rmi://192.168.1.152  1, name=java.lang:type=Memory, className=javax.management.NotificationEmitter
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765473
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=0
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=120000
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 120000 ms remaining
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl getAttribute connectionId=rmi://192.168.1.152  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor getAttribute Attribute = HeapMemoryUsage, ObjectName = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765477
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=1
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=119999
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 119999 ms remaining
+2025-04-20 19:52:45 FINE sun.rmi.transport.tcp.TCPTransport$ConnectionHandler run0 RMI TCP Connection(1)-192.168.1.152: (port 60079) op = 80
+2025-04-20 19:52:45 FINER sun.rmi.transport.Transport serviceCall RMI TCP Connection(1)-192.168.1.152: getting input stream
+2025-04-20 19:52:45 FINER java.io.ObjectInputFilter$Config traceFilter Builtin factory: null -> new: null
+2025-04-20 19:52:45 FINER sun.rmi.transport.tcp.TCPTransport handleMessages RMI TCP Connection(1)-192.168.1.152: call dispatcher
+2025-04-20 19:52:45 FINER sun.rmi.server.UnicastServerRef dispatch RMI TCP Connection(1)-192.168.1.152: [192.168.1.152: javax.management.remote.rmi.RMIConnectionImpl[55791073:19655d54e92:-7ffd, 8284935283720503827]: public abstract java.lang.Object javax.management.remote.rmi.RMIConnection.getAttribute(javax.management.ObjectName,java.lang.String,javax.security.auth.Subject) throws javax.management.MBeanException,javax.management.AttributeNotFoundException,javax.management.InstanceNotFoundException,javax.management.ReflectionException,java.io.IOException]
+2025-04-20 19:52:45 FINE java.rmi.server.RMIClassLoader$2 loadClass RMI TCP Connection(1)-192.168.1.152: name = "javax.management.ObjectName", codebase = ""
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: (thread context class loader: null)
+2025-04-20 19:52:45 FINER sun.rmi.server.LoaderHandler loadClass RMI TCP Connection(1)-192.168.1.152: class "javax.management.ObjectName" found via thread context class loader (no security manager: codebase disabled), defined by null
+2025-04-20 19:52:45 FINE javax.management.remote.rmi.RMIConnectionImpl getAttribute connectionId=rmi://192.168.1.152  1, name=java.lang:type=Memory, attribute=HeapMemoryUsage
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin reqIncoming Receive a new request.
+2025-04-20 19:52:45 FINER com.sun.jmx.interceptor.DefaultMBeanServerInterceptor getAttribute Attribute = HeapMemoryUsage, ObjectName = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.mbeanserver.Repository retrieve name = java.lang:type=Memory
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin rspOutgoing Finish a request.
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: Timestamp=1745196765483
+2025-04-20 19:52:45 FINER sun.rmi.transport.StreamRemoteCall getResultStream RMI TCP Connection(1)-192.168.1.152: getting output stream
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: elapsed=0
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin logtime Admin: remaining timeout=120000
+2025-04-20 19:52:45 FINER com.sun.jmx.remote.internal.ServerCommunicatorAdmin$Timeout run Waiting with timeout: 120000 ms remaining
+2025-04-20 19:52:45 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 1009
+2025-04-20 19:52:45 INFO edu.baylor.ecs.si.Timer timeMe * should take: 1000
+2025-04-20 19:52:45 FINE java.lang.Shutdown logRuntimeExit Runtime.exit() called with status: 0
+java.lang.Throwable: Runtime.exit(0)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1923)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:56)
+
